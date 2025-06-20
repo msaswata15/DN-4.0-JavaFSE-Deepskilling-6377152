@@ -1,3 +1,4 @@
+package Week_1_Design_Principle_Pattern.Code.Exercise_1_SingletonPatternExample.src;
 
 public class SingletonTest {
     public static void main(String[] args) {
