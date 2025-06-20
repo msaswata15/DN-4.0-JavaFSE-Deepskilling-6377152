@@ -1,6 +1,5 @@
 package Week_1_Design_Principle_Pattern.DataStructure.Exercise_2_Search.code;
 
-// Product.java
 public class Product {
     int productId;
     String productName;

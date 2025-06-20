@@ -20,10 +20,9 @@ public class BinarySearch {
             }
         }
 
-        return -1; // Not found
+        return -1;
     }
 
-    // Helper method to sort products by ID
     public static void sortProducts(Product[] products) {
         Arrays.sort(products, Comparator.comparingInt(p -> p.productId));
     }

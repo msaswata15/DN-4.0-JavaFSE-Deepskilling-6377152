@@ -12,7 +12,6 @@ public class Main {
 
         int targetId = 5;
 
-        // 👉 Linear Search
         int linearIndex = LinearSearch.linearSearch(products, targetId);
         if (linearIndex != -1) {
             System.out.println("Linear Search: Found " + products[linearIndex].productName);
@@ -20,8 +19,7 @@ public class Main {
             System.out.println("Linear Search: Product not found.");
         }
 
-        // 👉 Binary Search
-        BinarySearch.sortProducts(products); // Sort before binary search
+        BinarySearch.sortProducts(products);
         int binaryIndex = BinarySearch.binarySearch(products, targetId);
         if (binaryIndex != -1) {
             System.out.println("Binary Search: Found " + products[binaryIndex].productName);

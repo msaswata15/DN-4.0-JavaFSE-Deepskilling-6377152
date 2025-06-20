@@ -15,7 +15,6 @@ public class Logger {
         return instance;
     }
 
-    // Example method to demonstrate logging
     public void log(String message) {
         System.out.println("Log: " + message);
     }
