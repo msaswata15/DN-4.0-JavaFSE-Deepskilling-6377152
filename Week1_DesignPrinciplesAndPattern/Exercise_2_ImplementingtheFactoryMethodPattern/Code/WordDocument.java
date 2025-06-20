@@ -1,4 +1,4 @@
-package Week1_Design_Principle_Pattern.DesignPrinciple.Exercise_2_Factory.Code;
+package Week1_DesignPrinciplesAndPattern.Exercise_2_ImplementingtheFactoryMethodPattern.Code;
 
 public class WordDocument implements Document {
     @Override

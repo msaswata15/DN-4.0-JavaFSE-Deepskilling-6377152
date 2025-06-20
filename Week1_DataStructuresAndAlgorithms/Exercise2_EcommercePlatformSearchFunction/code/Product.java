@@ -1,4 +1,4 @@
-package Week1_Design_Principle_Pattern.DataStructure.Exercise_2_Search.code;
+package Week1_DataStructuresAndAlgorithms.Exercise2_EcommercePlatformSearchFunction.code;
 
 public class Product {
     int productId;

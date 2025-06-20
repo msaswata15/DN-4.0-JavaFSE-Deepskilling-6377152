@@ -1,4 +1,4 @@
-package Week1_Design_Principle_Pattern.DataStructure.Exercise_7_Forecast.code;
+package Week1_DataStructuresAndAlgorithms.Exercise7_FinancialForecasting.code;
 
 public class Main {
 
