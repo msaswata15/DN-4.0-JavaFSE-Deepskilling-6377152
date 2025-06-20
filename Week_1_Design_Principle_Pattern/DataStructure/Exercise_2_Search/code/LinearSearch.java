@@ -8,7 +8,7 @@ public class LinearSearch {
                 return i;
             }
         }
-        return -1; // Not found
+        return -1;
     }
 
 }
