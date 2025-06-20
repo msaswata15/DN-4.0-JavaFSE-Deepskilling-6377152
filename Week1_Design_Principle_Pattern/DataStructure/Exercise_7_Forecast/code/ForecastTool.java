@@ -1,4 +1,4 @@
-package Week_1_Design_Principle_Pattern.DataStructure.Exercise_7_Forecast.code;
+package Week1_Design_Principle_Pattern.DataStructure.Exercise_7_Forecast.code;
 
 public class ForecastTool {
 

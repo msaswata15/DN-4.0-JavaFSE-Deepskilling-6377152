@@ -1,4 +1,4 @@
-package Week_1_Design_Principle_Pattern.DataStructure.Exercise_2_Search.code;
+package Week1_Design_Principle_Pattern.DataStructure.Exercise_2_Search.code;
 
 public class LinearSearch {
 

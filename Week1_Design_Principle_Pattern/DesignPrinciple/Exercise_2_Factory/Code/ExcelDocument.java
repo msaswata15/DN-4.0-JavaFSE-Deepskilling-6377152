@@ -1,4 +1,4 @@
-package Week_1_Design_Principle_Pattern.DesignPrinciple.Exercise_2_Factory.Code;
+package Week1_Design_Principle_Pattern.DesignPrinciple.Exercise_2_Factory.Code;
 
 public class ExcelDocument implements Document {
     @Override
