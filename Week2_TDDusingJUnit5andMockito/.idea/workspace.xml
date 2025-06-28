@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="101758f7-a500-458f-829f-e4361c9da5c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise1_SettingUpJUnit/Code/src/main/java/org/saswata/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise1_SettingUpJUnit/Code/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise1_SettingUpJUnit/Output/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week1_DataStructuresAndAlgorithms_HandsOn.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week1_DesignPrinciplesAndPattern_HandsOn.docx" beforeDir="false" />
-    </list>
+    <list default="true" id="101758f7-a500-458f-829f-e4361c9da5c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/PROJECTS/Cognizant Assignmnets/Week2_TDDusingJUnit5andMockito",
     "onboarding.tips.debug.path": "D:/PROJECTS/Cognizant Assignmnets/Week2_TDDusingJUnit5andMockito/src/main/java/org/saswata/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
