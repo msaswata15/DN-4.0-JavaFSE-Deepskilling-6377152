@@ -1,9 +1,8 @@
 package com.library;
 
+import com.library.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.library.service.BookService;
 
 public class SpringMain {
     public static void main(String[] args) {

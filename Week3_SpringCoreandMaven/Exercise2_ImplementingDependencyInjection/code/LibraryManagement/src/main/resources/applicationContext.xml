@@ -4,8 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Exercise 1: Beans defined independently, no DI -->
-    <bean id="bookService" class="com.library.service.BookService"/>
+    <!-- Exercise 2: Beans with DI (BookRepository injected into BookService) -->
     <bean id="bookRepository" class="com.library.repository.BookRepository"/>
+    <bean id="bookService" class="com.library.service.BookService">
+        <property name="bookRepository" ref="bookRepository"/>
+    </bean>
 
 </beans>
