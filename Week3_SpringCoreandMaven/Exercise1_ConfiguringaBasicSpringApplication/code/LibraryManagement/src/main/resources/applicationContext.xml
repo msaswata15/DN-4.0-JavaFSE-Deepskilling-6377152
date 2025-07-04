@@ -5,7 +5,10 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Exercise 1: Beans defined independently, no DI -->
-    <bean id="bookService" class="com.library.service.BookService"/>
-    <bean id="bookRepository" class="com.library.repository.BookRepository"/>
+    <bean id="bookRepository" class="com.library.repository.BookRepository" />
+
+    <bean id="bookService" class="com.library.service.BookService">
+        <property name="bookRepository" ref="bookRepository" />
+    </bean>
 
 </beans>
