@@ -9,7 +9,8 @@ public class BookService {
         this.bookRepository = bookRepository;
     }
 
-    public void printService() {
-        System.out.println("BookService is working. Repo: " + bookRepository);
+    public void addBook(String bookName) {
+        System.out.println("Adding book: " + bookName);
+        bookRepository.saveBook(bookName);
     }
 }
