@@ -51,6 +51,7 @@ public class SecurityConfig {
         http.csrf(csrf -> csrf.disable())
             .httpBasic(httpBasic -> {})
             .authorizeHttpRequests(authz -> authz
+                .requestMatchers("/countries/**").hasRole("USER")
                 .requestMatchers("/authenticate").hasAnyRole("USER", "ADMIN")
                 .anyRequest().authenticated()
             )
